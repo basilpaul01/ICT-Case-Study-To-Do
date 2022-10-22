@@ -1,13 +1,13 @@
 <app-navbar></app-navbar>
-<h1>To-do List</h1>
+<h1 class="bg-dark">To-do List</h1>
 <div class="container">
     <div class="row">
         <div class="col col-12 col-sm-12 col-md-12 col-lg-12">
             <div class="row g-3">
                 <ul *ngFor="let i of data" style="list-style: none;">
-                    <li>
+                    <li><p>
                         <input type="checkbox" #check [checked]="i.completed" [disabled]="i.completed" (click)="newfunction(i.completed,check)">
-                        {{i.title}}
+                        {{i.title}}</p>
                     </li>
                 </ul>
             </div>

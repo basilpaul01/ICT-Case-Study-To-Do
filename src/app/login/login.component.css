@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap');
+*
+{
+    font-weight: bolder;
+    color: rgb(155, 150, 150);
+    
+}
 h1
 {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     text-shadow: 5px 5px 5px gray;
-    color: white;
+    color: black;
 }
 .form-container
 {
@@ -13,9 +19,9 @@ h1
     padding: 50px 60px;
     margin-top: 15%;
     margin-bottom: 15%;
-    box-shadow: -1px 4px 26px 10px white;
-    border-radius: 10px;
-    background-color: black;
+    border-radius: 10px; 
+    box-shadow: rgba(255, 255, 255,1 ) 0px 10px 15px -3px, rgba(255, 255, 255, 1) 0px 4px 6px -2px;
+    background-color: lightblue;
 }
 #em
 {
@@ -25,15 +31,20 @@ h1
 #pass
 {
     font-family: 'Figtree', sans-serif;
-    color: white;
+    color: azure;
 }
 button
 {
+    color:black;
+    border-radius: 5px;
+    font-weight: bolder;
+    background-color: aliceblue;
     transition: 0.5s;
 }
 button:hover
 {
-    box-shadow: 4px 4px 2px white;
     margin-top: -10px;
+    color: whitesmoke;
+    background-color: black;
 }
 

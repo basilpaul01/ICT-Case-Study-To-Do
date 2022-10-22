@@ -1,25 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap');
+*
+{
+    font-weight: bolder;
+
+}
 h1
 {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     /* margin-top: 1%; */
     margin-bottom: 1%;
-    color: white;
+    color: aliceblue;
     background-color: black;
 }
 li
 {   font-family: 'Figtree', sans-serif;
     transition: 0.5s;
-    color: white;
+    color: aliceblue;
+    background-color:darkcyan;
+    border-radius:5px;
+    box-shadow: rgba(255, 0, 0, 1) 2.4px 2.4px 3.2px;
+    
+    
 
 }
-li:hover
+input:checked
 {
-    box-shadow: 1px 2px 2px white;
-    margin-top: -10px;
+  color: aqua;
+  width: 12px;
 }
+li > p{
+padding:10px;
+}
+
 input.checkbox
 {
     width: 25px;
