@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap');
+h1
+{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    /* margin-top: 1%; */
+    margin-bottom: 1%;
+    color: white;
+    background-color: black;
+}
+li
+{   font-family: 'Figtree', sans-serif;
+    transition: 0.5s;
+    color: white;
+
+}
+li:hover
+{
+    box-shadow: 1px 2px 2px white;
+    margin-top: -10px;
+}
+input.checkbox
+{
+    width: 25px;
+    height: 25px;
+}

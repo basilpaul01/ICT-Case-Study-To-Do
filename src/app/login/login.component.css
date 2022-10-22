@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap');
+h1
+{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 5px 5px 5px gray;
+    color: white;
+}
+.form-container
+{
+    border: 0px solid white;
+    padding: 50px 60px;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    box-shadow: -1px 4px 26px 10px white;
+    border-radius: 10px;
+    background-color: black;
+}
+#em
+{
+    font-family: 'Figtree', sans-serif;
+    color: white;
+}
+#pass
+{
+    font-family: 'Figtree', sans-serif;
+    color: white;
+}
+button
+{
+    transition: 0.5s;
+}
+button:hover
+{
+    box-shadow: 4px 4px 2px white;
+    margin-top: -10px;
+}
+
